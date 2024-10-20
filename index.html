@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Responsivo com Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menu Hambúrguer -->
+    <header>
+        <nav class="navbar">
+            <div class="brand-title">Meu Site</div>
+            <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links" id="navbar-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo -->
+    <main>
+        <section>
+            <h1>Bem-vindo ao Meu Site</h1>
+            <p>Aqui você encontra várias informações sobre nossos serviços.</p>
+            <p>Explore o menu acima para saber mais!</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
